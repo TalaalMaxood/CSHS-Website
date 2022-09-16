@@ -151,7 +151,7 @@ nav .fa-solid{
     padding: 60px 40px;
     box-sizing: border-box;
     transition: 0.5s;
-    margin:25px
+    margin:0 auto;
     
 }
 
@@ -207,6 +207,7 @@ h3{
 
 .tutoring-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    
 }
 
 @media(max-width: 700px){
@@ -342,7 +343,7 @@ h3{
   
 }
 .pastOfficer_des{
-  text-color: black;
+  color: black;
   text-align: center;
   font-size: 20px;
   display:flex;
