@@ -139,20 +139,20 @@ nav .fa-solid{
 /*bylaws pdf;*/
 .Bylaws{
     width:80%;
-    margin: auto;
+    margin:10px auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .tutoring-col{
     
-    width:800px;
+    
     background: #dbf4ff;
     border-radius: 50px;
-  
-    padding: 30px 60px;
+
+    padding: 30px 40px;
     transition: 0.5s;
-    margin: 20px 20px;
+    margin: 20px 10px;
     
 }
 /*Formats the calendar*/
@@ -170,7 +170,6 @@ nav .fa-solid{
     
     background: #dbf4ff;
     border-radius: 30px;
-    
     padding: 30px 60px;
     transition: 0.5s;
     margin:20px auto;
@@ -215,11 +214,11 @@ nav .fa-solid{
     flex-basis: 30%;
     background: #dbf4ff;
     border-radius: 50px;
-    margin-bottom: 5%;
-    padding: 60px 40px;
+   
+    padding: 40px 40px;
     box-sizing: border-box;
     transition: 0.5s;
-    margin: auto;
+    margin:20px auto;
 }
 
 
