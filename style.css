@@ -18,7 +18,7 @@
     min-height: 50vh;
     min-width:800px;
     
-    width: 100vmax;
+    width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(background-2.jpg);
     background-position: center;
     background-size: cover;
@@ -135,7 +135,7 @@ nav .fa-solid{
 .tutoring{
     width: 80%;
     margin: auto;
-    justify-content:center;
+    
     text-align:center;
     padding-top: 100px;
     
@@ -150,12 +150,12 @@ nav .fa-solid{
 }
 
 .tutoring-col{
-    justify-content:center;
-    width:100vw;
+   
+    width:90vw;
     background: #dbf4ff;
     border-radius: 50px;
-    max-width: 700px;
-    min-width:600px;
+    max-width: 600px;
+    min-width:500px;
     padding: 30px 40px;
     transition: 0.5s;
     margin: 20px 20px;
@@ -292,8 +292,8 @@ h3{
 
 .profiles {
   display: flex;
-  justify-content: space-between;
-  margin: 20px 80px;
+  justify-content: space-evenly;
+  margin: 20px 0px;
 }
 .directorProfile{
   display: flex;
@@ -305,6 +305,7 @@ h3{
 
 .profile {
   flex-basis: 300px;
+  margin:0px 20px;
 }
 
 .profile .profile-img{
@@ -344,6 +345,7 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   .profile p {
