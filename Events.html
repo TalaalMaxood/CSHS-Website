@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, inital-scale = 1.0">
+  <title>Computer Science Honor Society Website</title>
+    <script src="https://kit.fontawesome.com/0a0c1e96ef.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon Image (small icon next to name shown in the tab)-->
+  <link rel="icon" type="image/x-icon" href="logo.jpg">    
+</head>
+
+<body>
+  <section class = "header-1">
+    <nav>
+        <a href="index.html"><img src = "logo-0.png" width = "150"></a>
+        <div class = "nav-links" id = "navLinks">
+            <i class="fa-solid fa-xmark" onclick = "hideMenu();"></i>
+            <ul>
+                <li> <a href = "index.html">HOME</a> </li>
+                <li> <a href = "about.html">ABOUT</a> </li>
+                <li> <a href = "Calendar.html">CALENDAR</a> </li>
+                <li> <a href = "Forms.html">FORMS</a> </li>
+                <li> <a href = "Events.html">PARTICIPATION/SERVICE</a> </li>
+                <li> <a href = "Meetings.html">MEETINGS</a> </li>
+                <li> <a href = "officers.html">OFFICERS</a> </li>
+                <li> <a href = "Media.html">MEDIA</a> </li>
+                <li> <a href = "Login.html">LOGIN/POINTS</a> </li>
+            </ul>           
+        </div>
+        <i class="fa-solid fa-bars" onclick = "showMenu();"></i>
+    </nav>
+<div class = "text-box">
+    <h1>Participation & Service</h1>
+</div>       
+  </section>
+<section class = "tutoring">
+    <h1>Current/Upcoming Service and Participation Opportunities</h1>
+
+    <!-- Make it so that these divs appear when hovered over. -->
+      <!-- Ctrc + V from here -->
+      <div class = "events">
+        <h2 style = "color:#03dbfc">Taking Online CS Courses</h2>
+        <h4 style="color:#027bd1">Participation</h4>
+         <p style="color:red"><b>Year-round Opportunity</b></p>
+        <p>Members can earn participation points by taking online courses in any topic related to
+computer science that is not already taught in the CIT or school curriculum</p>
+          <p>We may ask you to develop a
+supplemental project to showcase your learning depending on the subject.</p>
+       
+        <p><a href = "https://docs.google.com/document/d/1S3riHgYr_w72EahrnoBuBbCuhrN640bMnmKgO28FEYA/edit?usp=sharing"> These are some resources to help you get started </a></p>
+        <p>You can log participation points <a href = "Login.html"> here</a></p>
+      </div>
+      <div class = "events">
+        <h2 style = "color:#03dbfc">Tutoring in Computer Science</h2>
+        <h4 style="color:#027bd1">Service</h4>
+         <p style="color:red"><b>Year-round Opportunity</b></p>
+        <p>Members can earn service points by tutoring for AP Computer Science A, Computer Science Principles, and Intro to Programming.</p>
+        <p>If you want to tutor, or be tutored, you can <a href = "Forms.html"> access the forms here</a></p>
+      </div>
+      <div class = "events">
+        <h2 style = "color:#03dbfc">Monthly Programming Problems</h2>
+        <h4 style="color:#027bd1">Participation</h4>
+        <p style="color:red"><b>Code is due on Friday, November 11th at 4:00PM </p></b>
+        <p>For this months's programing problem, we want you to create code that can make <a href = "https://brilliant.org/wiki/pascals-triangle/">Pascal's triangle</a></p>
+        <p> The code should take an input n and be able to ouput n rows of Pascal's Triangle</p>
+        <ul>
+          <p>e.g with an input of 5, the program should show the following</p>
+          <p>1</p>
+          <p>1 , 1</p>
+          <p>1 , 2 , 1</p>
+          <p>1 , 3 , 3 , 1</p>
+          <p>1 , 4 , 6 , 4 , 1</p>
+        </ul>
+        <p><b> You can earn 1 participation point for a working program. If you were unable to finish the program but showed effort, you can earn 0.5 points. Please do not cheat and violate the CSHS Honor Code over 1 participation point.</b></p>
+         <a href = "https://survey.zohopublic.com/zs/kIBUbZ"> You can submit your code here</a> 
+      </div>
+      <div class = "events">
+        <h2 style = "color:#03dbfc">Goodie Bag Assembly</h2>
+        <h4 style="color:#027bd1">Service</h4>
+        <p style="color:red"><b>Date is currently undecided.</b></p>
+        <p>Volunteers will create Goodie Bags for the Hour of Code event.
+          The Assembly will take place after school and last up to one hour.</p>
+        <p><b>You can earn 1 service point</b></p>
+        <p>If you want to volunteer, <a href = "https://docs.google.com/forms/d/e/1FAIpQLSeorzxLL_jPzNTMZ-h5xOwiji6u5UICPE0r30_mIi16nafREg/viewform">sign up here</a> </p>
+      </div>
+      <div class = "events">
+        <h2 style = "color:#03dbfc">CodeVA Laptop Cleanup</h2>
+        <h4 style="color:#027bd1">Service</h4>
+        <p style="color:red"><b>This event occurs on Saturday, November 12th </p></b>
+        <p>The event takes place at V300 E. Broad St. Richmond, VA 23220 and lasts from 10am - 3pm</p>
+        <p> CodeVA was recently donated lots of laptops, and they need volunteers to assemble, reconfigure, and prepare these laptops for new homes.
+</p> <p>Pizza and beverages will be provided</p> <p><b>You can earn up to 5 service points</b></p>
+        <p>If you want to volunteer, <a href = "https://survey.zohopublic.com/zs/kIBUbZ">sign up here</a> </p>
+      </div>
+      <!-- To here-->
+      <div class = "events">
+        <h2 style = "color:#03dbfc">Hour of Code Volunteering</h2>
+        <h4 style="color:#027bd1">Service</h4>
+        <p style="color:red"><b>This event occurs on Monday, December 5th.</b></p>
+        <p>
+Volunteers will miss the entire school day, leading middle school students in various
+CS activities.There will be rotating groups of students coming
+throughout the day.</p>
+          <p>Keep in mind spots for participation in this event are limited so be sure to sign up early.</p>
+        <p><b>You can earn up to 6 service points</b></p>
+       
+        <a href = "https://docs.google.com/forms/d/e/1FAIpQLScRSHu_YInucLuH6Yb3JoOmZGJSMGR7mrWOnYQNJ9duIBHN0A/viewform">Sign up to volunteer here</a>
+      </div>
+      <div class = "events">
+        <h2 style = "color:#03dbfc">Virginia Tech High School
+Programming Contest</h2>
+        <h4 style="color:#027bd1">Participation</h4>
+        <p style="color:red"><b>This event occurs on Saturday, December 10th.</b></p>
+        <p>This contest will take place at the CIT wing at Deep Run</p>
+        <p>The contest will be 5 hours long and participants will compete in teams of 3</p>
+       <p>Currently, registration has not started yet.</p>
+        <p><b>You can earn up to 5 participation points</b></p>
+        <p>If you want to practice for this competition <a href = "https://open.kattis.com/search?q=Virginia+Tech+High+School+Programming+Contest">here are some practice problems</a> from previous competitions</p>
+        <p><a href="https://vthscontest.cs.cloud.vt.edu/problems/15">Additional Problems</a></p>
+      </div>
+
+</section>
+</body>
+</html>
