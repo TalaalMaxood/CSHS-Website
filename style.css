@@ -277,7 +277,9 @@ h3{
     font-weight: 600;
     margin: 10px;
 }
-
+.values-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
 .tutoring-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); 
 }
